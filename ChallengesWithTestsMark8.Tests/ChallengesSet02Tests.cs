@@ -195,7 +195,7 @@ namespace ChallengesWithTestsMark8.Tests
             ChallengesSet02 challenger = new ChallengesSet02();
 
             // Act
-            int actual = challenger.SumEvens(numbers);
+            int actual = ChallengesSet02.SumEvens(numbers);
 
             // Assert
             Assert.Equal(expected, actual);
